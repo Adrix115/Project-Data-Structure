@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Estetica">
+      <UniqueIdentifier>{5ca661cd-d023-404a-9ab6-cdecfbef4078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Estetica">
+      <UniqueIdentifier>{01c7ff60-4aa5-438a-8d4d-59bc3e88a3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Tipos de Dato">
+      <UniqueIdentifier>{cba1cc42-5712-43ba-82bb-38d04f818521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Tipos de User">
+      <UniqueIdentifier>{fc69fe5f-1c23-483f-a02a-4ae50569da33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Archivero.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrote.cpp">
+      <Filter>Archivos de origen\Estetica</Filter>
+    </ClCompile>
+    <ClCompile Include="BootSequence.cpp">
+      <Filter>Archivos de origen\Estetica</Filter>
+    </ClCompile>
+    <ClCompile Include="Users.cpp">
+      <Filter>Archivos de origen\Tipos de User</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInvitado.cpp">
+      <Filter>Archivos de origen\Tipos de User</Filter>
+    </ClCompile>
+    <ClCompile Include="UsersControl.cpp">
+      <Filter>Archivos de origen\Tipos de User</Filter>
+    </ClCompile>
+    <ClCompile Include="UsersClient.cpp">
+      <Filter>Archivos de origen\Tipos de User</Filter>
+    </ClCompile>
+    <ClCompile Include="UsersDocs.cpp">
+      <Filter>Archivos de origen\Tipos de User</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Archivero.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="BootSequence.h">
+      <Filter>Archivos de encabezado\Estetica</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrote.h">
+      <Filter>Archivos de encabezado\Estetica</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Archivos de encabezado\Tipos de Dato</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInvitado.h">
+      <Filter>Archivos de encabezado\Tipos de Dato</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersClient.h">
+      <Filter>Archivos de encabezado\Tipos de Dato</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersControl.h">
+      <Filter>Archivos de encabezado\Tipos de Dato</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersDocs.h">
+      <Filter>Archivos de encabezado\Tipos de Dato</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

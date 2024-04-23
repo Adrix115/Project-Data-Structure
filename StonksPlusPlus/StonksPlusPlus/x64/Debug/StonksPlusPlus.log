@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\DELL\source\repos\StonksPlusPlus\StonksPlusPlus\main.cpp(31,59): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\DELL\source\repos\StonksPlusPlus\StonksPlusPlus\main.cpp(50,40): warning C4101: 'e': variable local sin referencia
+  UsersControl.cpp
+  UsersDocs.cpp
+C:\Users\DELL\source\repos\StonksPlusPlus\StonksPlusPlus\UsersDocs.cpp(12,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Generando código...
+  StonksPlusPlus.vcxproj -> C:\Users\DELL\source\repos\StonksPlusPlus\x64\Debug\StonksPlusPlus.exe
