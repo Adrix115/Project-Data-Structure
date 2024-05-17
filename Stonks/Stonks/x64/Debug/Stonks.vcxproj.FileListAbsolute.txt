@@ -1,0 +1,5 @@
+C:\Users\DELL\source\repos\Stonks\Stonks\x64\Debug\Stonks.vcxproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Stonks\Stonks\x64\Debug\Stonks.Main.resources
+C:\Users\DELL\source\repos\Stonks\Stonks\x64\Debug\Stonks.vcxproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Stonks\Stonks\x64\Debug\Stonks.Login.resources
+C:\Users\DELL\source\repos\Stonks\Stonks\x64\Debug\Stonks.Singup.resources
