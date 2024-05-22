@@ -1,4 +1,0 @@
-﻿  BootSequence.cpp
-  main.cpp
-BootSequence.obj : error LNK2001: símbolo externo "public: static void __cdecl BootSequence::background(void)" (?background@BootSequence@@SAXXZ) sin resolver
-C:\Users\DELL\source\repos\StonksPlusPlus\x64\Release\StonksPlusPlus.exe : fatal error LNK1120: 1 externos sin resolver
