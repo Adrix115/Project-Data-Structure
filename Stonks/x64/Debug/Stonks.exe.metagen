@@ -1,0 +1,111 @@
+  Stonks.Login.resources - Embedded, ContainedInManifestFile, 
+  Stonks.Main.resources - Embedded, ContainedInManifestFile, 
+  Stonks.Singup.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Stonks, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ID : Public
+    System.String Username : Public
+    System.String Email : Public
+    System.String Password : Public
+    Boolean Visible : Public
+Class Recordatorio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String nombre : Public
+    System.String descripcion : Public
+    System.String fecha : Public
+    Boolean completado : Public
+    Int32 ID : Public, Static
+  Methods:
+    ToString(String): PrivateScope, Public, HideBySig
+Class Seguimiento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String fecha : Public
+    System.String descripcion : Public
+    Boolean visible : Public
+    Int32 contadorId : Public, Static
+  Methods:
+    ToString(String): PrivateScope, Public, HideBySig
+Class Registro: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 id : Public
+    System.String fecha : Public
+    System.String doctor : Public
+    System.String especialidad : Public
+    System.String descripcion : Public
+    Boolean visible : Public
+    Int32 contadorId : Public, Static
+  Methods:
+    ToString(String): PrivateScope, Public, HideBySig
+Class Nodo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Seguimiento): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Registro): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Recordatorio): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Usuario): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Usuario usuario : Public
+    Recordatorio recordatorio : Public
+    Seguimiento seguimiento : Public
+    Registro registro : Public
+    Nodo siguiente : Public
+Class ArchiveSaver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.String direccion : Public
+    Nodo inicio : Public
+    Nodo fin : Public
+  Methods:
+    Cargar(): PrivateScope, Public, HideBySig
+    Guardar(): PrivateScope, Public, HideBySig
+    Alta(Usuario): PrivateScope, Public, HideBySig
+    Baja(Int32): PrivateScope, Public, HideBySig
+    Modificar(Usuario, Int32): PrivateScope, Public, HideBySig
+    Consultar(Int32): PrivateScope, Public, HideBySig
+    Listar(): PrivateScope, Public, HideBySig
+    AltaRecordatorio(Recordatorio): PrivateScope, Public, HideBySig
+    BajaRecordatorio(Int32): PrivateScope, Public, HideBySig
+    ModificarRecordatorio(Recordatorio, Int32): PrivateScope, Public, HideBySig
+    ConsultarRecordatorio(Int32): PrivateScope, Public, HideBySig
+    ListarRecordatorios(): PrivateScope, Public, HideBySig
+    AltaSeguimiento(Seguimiento): PrivateScope, Public, HideBySig
+    BajaSeguimiento(Int32): PrivateScope, Public, HideBySig
+    ModificarSeguimiento(Seguimiento, Int32): PrivateScope, Public, HideBySig
+    ConsultarSeguimiento(Int32): PrivateScope, Public, HideBySig
+    ListarSeguimientos(): PrivateScope, Public, HideBySig
+    AltaRegistro(Registro): PrivateScope, Public, HideBySig
+    BajaRegistro(Int32): PrivateScope, Public, HideBySig
+    ModificarRegistro(Registro, Int32): PrivateScope, Public, HideBySig
+    ConsultarRegistro(Int32): PrivateScope, Public, HideBySig
+    ListarRegistros(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Stonks.Main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Stonks.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Stonks.Singup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
