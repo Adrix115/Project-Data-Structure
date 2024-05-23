@@ -1,0 +1,4 @@
+C:\Users\Usuario\source\repos\Proyecto2024\Proyecto2024\x64\Debug\Proyecto2024.vcxproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Proyecto2024\Proyecto2024\x64\Debug\Proyecto2024.MyForm.resources
+C:\Users\Usuario\source\repos\Proyecto2024\Proyecto2024\x64\Debug\Proyecto2024.vcxproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Proyecto2024\Proyecto2024\x64\Debug\Proyecto2024.QuestionsFormh.resources
